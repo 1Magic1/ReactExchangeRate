@@ -1,0 +1,50 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  background: linear-gradient(180deg, #00BFFF 50%, #FFD700 50%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #333;
+}
+
+h1 {
+  font-size: 83px;
+  color: #a09000;
+}
+
+select {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #003366;
+  background-color: #fff;
+  color: #003366;
+  cursor: pointer;
+  margin-top: 120px;
+}
+
+select:focus {
+  outline: none;
+  border-color: #00BFFF;
+  
+}
+
+.rates {
+  font-size: 28px;
+  font-weight: bold;
+  color: #003366;
+  margin-top: 25px;
+  
+}
+
+p {
+  margin: 0;
+}
